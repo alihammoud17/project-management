@@ -1,0 +1,16 @@
+/solution
+
+# NODE MODULES
+client/node_modules
+server/node_modules
+
+
+# DIST
+client/dist/
+server/dist/
+
+# ENV
+client/.env
+server/.env
+
+client/.next
