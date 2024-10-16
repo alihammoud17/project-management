@@ -1,3 +1,5 @@
+'use client'
+
 import { Priority, Project, Task, useGetProjectsQuery, useGetTasksQuery } from '@/state/api';
 import React, { useMemo } from 'react'
 import { useAppSelector } from '../redux';

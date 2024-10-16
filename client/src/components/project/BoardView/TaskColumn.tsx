@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+'use client'
 import { Task as TaskType } from "@/state/api";
 import { EllipsisVertical, Plus } from "lucide-react";
 import React from 'react';
