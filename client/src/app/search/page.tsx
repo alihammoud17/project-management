@@ -5,8 +5,8 @@ import ProjectCard from '@/components/project-card';
 import TaskCard from '@/components/TaskCard';
 import UserCard from '@/components/UserCard';
 import { useSearchQuery } from '@/state/api';
-import { debounce } from '@mui/material';
-import React, { useState } from 'react';
+import { debounce } from 'lodash';
+import React, { useEffect, useState } from 'react';
 
 const Search = () => {
 
